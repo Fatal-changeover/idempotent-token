@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="token_service_order" />
+        <module name="token_web_order" />
+        <module name="token_common_db" />
+        <module name="token_service_order_api" />
+        <module name="token_common" />
+        <module name="token_eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="token_common" options="-parameters" />
+      <module name="token_common_db" options="-parameters" />
+      <module name="token_eureka" options="-parameters" />
+      <module name="token_service" options="-parameters" />
+      <module name="token_service_api" options="-parameters" />
+      <module name="token_service_order" options="-parameters" />
+      <module name="token_service_order_api" options="-parameters" />
+      <module name="token_web" options="-parameters" />
+      <module name="token_web_order" options="-parameters" />
+    </option>
+  </component>
+</project>

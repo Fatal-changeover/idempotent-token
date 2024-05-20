@@ -1,0 +1,6 @@
+# Project exclude paths
+/token_common/target/
+/token_eureka/target/
+/token_service/token_service_order/target/
+/token_service_api/token_service_order_api/target/
+/token_web/token_web_order/target/
